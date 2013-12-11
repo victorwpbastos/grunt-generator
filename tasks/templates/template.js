@@ -1,0 +1,1 @@
+<h2>Hello, I'm {template}.tpl</h2>

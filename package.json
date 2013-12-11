@@ -1,0 +1,34 @@
+{
+  "name": "grunt-generator",
+  "description": "Grunt Code Generator.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/victorwpbastos/grunt-generator",
+  "author": {
+    "name": "Victor Bastos",
+    "email": "victorwpbastos@gmail.com",
+    "url": "www.victorbastos.com.br"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/victorwpbastos/grunt-generator"
+  },
+  "bugs": {
+    "url": "https://github.com/victorwpbastos/grunt-generator/issues"
+  },
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "scripts": {
+    "preinstall": "npm install -g grunt-cli"
+  }
+}
